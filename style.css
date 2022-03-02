@@ -1,12 +1,72 @@
+body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background-color: rgb(54, 48, 48);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.header {
+    width: 100%;
+    height: 300px;
+    color: white;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQg6ysL08eAltKyC_o-OIEaKG6eXjK2lMkHtw&usqp=CAU');
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-color: rgb(58, 84, 167); */
+}
 .btnsdiv {
     /* float:right; */
     display: flex;
-    background-color: rgb(153, 221, 221);
-    padding-top: 40px;
+    background-color: rgb(7, 148, 148);
+    color:white;
     font-size: 20px;
     justify-content: center;
+    align-items: center;
+    height: 70px;
+   
 }
+
+select {
+    margin-left: 10px;
+    padding:5px;
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+button {
+    margin-left:5px;
+    padding:5px;
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+
 
 .bind {
     display: flex;
+    width: 100%;
+    margin-top:30px;
+    justify-content: space-around;
+    background-color: rgb(54, 48, 48);
+    color:white;
+}
+.main {
+    width: 45%;
+    background-color:rgb(78, 70, 70); 
+    padding:5px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.image{
+    margin-right: 15px;
+    width: 50%;
+}
+
+.image > img {
+    width: 100%;
+    border: 5px solid rgb(78, 70, 70);
+    cursor: pointer;
 }
